@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Dancing Script", cursive;
+
+}
+
+/*HEADER*/
+.header {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 5px;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    border: 2px solid black
+}
+
+.regist_main_logo {
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.header>a {
+    text-decoration: none;
+    color: black;
+}
+
+.regist_icon {
+    margin-left: 1300px;
+}
+
+.regist_icon>a>p {
+    border: 2px solid black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+.regist_icon>a {
+    text-decoration: none;
+}
+
+.regist_icon>a>p:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+/*/HEADER*/
+
+
+.authorization{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 190px;
+    margin-right: 180px;
+}
+.authorization>div{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    width: 500px;
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-bottom: 360px;
+}
+
+.regist{
+    display: flex;
+    font-size: 25px;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+/*TEL_OR_EMAIL*/
+
+.tel_or_email{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tel_or_email>.search,.tel_or_email>.submit{
+    border: 2px solid black;
+}
+.tel_or_email>.search{
+    margin-left: 40px;
+}
+.tel_or_email>.submit{
+    margin-left: 10px;
+}
+/*/TEL_OR_EMAIL*/
+
+/*PASSWORD*/
+.password{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.password>p{
+    margin-right: 42px;
+    margin-left: 10px;
+}
+
+.password>.search,.password>.submit{
+    border: 2px solid black;
+}
+.password>.search{
+    margin-left: 112px;
+}
+.password>.submit{
+    margin-left: 10px;
+}
+.continue{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*/PASSWORD*/
+
+/*RETURN_PASSWORD*/
+.return_password{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.return_password>.search, .return_password>.submit{
+    border: 2px solid black;
+}
+.return_password>.submit{
+    margin-left: 10px;
+}
+.return_password>.search{
+    margin-left: 44px;
+}
+.return_password>p{
+    margin-left: 10px;
+}
+/*CONTINUE*/
+
+.authorization>div>a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 220px;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.authorization>div>a:hover{
+    background-color: rgb(179, 179, 179);
+}

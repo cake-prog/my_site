@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Dancing Script", cursive;
+
+}
+
+/*HEADER*/
+.header {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 5px;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    border: 2px solid black
+}
+
+.regist_main_logo {
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.header>a {
+    text-decoration: none;
+    color: black;
+}
+
+.regist_icon {
+    margin-left: 1300px;
+}
+
+.regist_icon>a>p {
+    border: 2px solid black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-top: 20px;
+    color: black;
+}
+
+.regist_icon>a {
+    text-decoration: none;
+}
+
+.regist_icon>a>p:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+/*/HEADER*/
+
+
+.authorization{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 190px;
+    margin-right: 180px;
+}
+.authorization>div{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-bottom: 360px;
+}
+
+.regist{
+    display: flex;
+    font-size: 25px;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+/*FIRST_NAME*/
+
+.first_name{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.first_name>p{
+    margin-right: 85px;
+}
+.first_name>.search,.first_name>.submit{
+    border: 2px solid black;
+}
+.first_name>.submit{
+    margin-left: 10px;
+}
+/*/FIRST_NAME*/
+
+/*LAST_NAME*/
+.last_name{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.last_name>p{
+    margin-right: 42px;
+    margin-left: 10px;
+}
+
+.last_name>.search,.last_name>.submit{
+    border: 2px solid black;
+}
+
+.last_name>.submit{
+    margin-left: 10px;
+}
+.continue{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*/LAST_NAME*/
+
+/*CONTINUE*/
+
+.authorization>div>a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.authorization>div>a:hover{
+    background-color: rgb(179, 179, 179);
+}
