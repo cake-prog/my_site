@@ -1,3 +1,9 @@
+<?php
+session_start();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +21,7 @@
     <div class="header">
         <a href="#"><img class="regist_main_logo" src="img/logo/лого1.png" alt="logo"></a>
         <div class="regist_icon">
-            <a href="authorization_1.html">
+            <a href="authorization.php">
                 <p>Регистрация</p>
             </a>
         </div>
@@ -24,18 +30,26 @@
     <div class="entrance">
         <div>
             <p class="vhod">Вход</p>
-            <div class="tel_or_email">
-                <p>Телефон или email</p>
-                <input type="text" name="text" class="search" placeholder="">
-                <input type="submit" name="submit" class="submit" value="Ввести">
+            <form action="include/signin.php" method="POST">
+            <div class="email">
+                <label class="label_email">email</label>
+                <input type="text" name="email" class="search" placeholder="">
             </div>
             <div class="password">
-                <p>Пароль</p>
-                <input type="text" name="text" class="search" placeholder="">
-                <input type="submit" name="submit" class="submit" value="Ввести">
+                <label class="label_password">password</label>
+                <input type="text" name="password" class="search" placeholder="">
             </div>
-            <a href="#"><p class="zab_password">Забыли пароль?</p></a>
-            <a href="#"><p class="bottom_vhod">Вход</p></a>
+            <button class="zab_password">Забыли пароль?</button>
+            <button type="submit" class="bottom_vhod">Вход</button>
+
+            <?php
+                    if ($_SESSION['message']){
+                        echo '<p class="msg"> ' . $_SESSION['message'] . '  </p>';
+                    }
+                     unset($_SESSION['message']);
+                
+             ?>
+            </form>
         </div>
     </div>
 </body>

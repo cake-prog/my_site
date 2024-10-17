@@ -72,35 +72,40 @@ body {
     display: flex;
     margin-top: 250px;
 
-    margin-left: 450px;
+    margin-left: 500px;
     margin-bottom: 360px;
 }
 
 .vhod {
+    
     display: flex;
     font-size: 25px;
-    margin-left: 40%;
+    margin-left: 44%;
     margin-top: 5px;
 }
 
-.tel_or_email {
+.email {
     display: flex;
     font-size: 25px;
     margin-top: 20px;
     margin-left: 20px;
+}
+.email > .search{
+    margin-left: 160px;
 }
 
 .password {
     display: flex;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 
 .zab_password {
+    font-family: "Dancing Script", cursive;
     display: flex;
     font-size: 25px;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-right: 30%;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -111,22 +116,21 @@ body {
     border: 2px solid black;
 }
 
-.tel_or_email>input{
+.email>input{
     margin-left: 10px;
     border: 2px solid black;
 }
 
 .password>.search{
     margin-left: 123px;
-}
-
-.password>.submit{
     margin-right: 20px;
 }
 
 .zab_password{
     padding-left: 15px;
     border: 2px solid black;
+    padding-right: 7px;
+    width: 187px;
 }
 
 .entrance>div>a{
@@ -139,15 +143,25 @@ body {
 }
 
 .bottom_vhod{
-    padding-left: 30px;
+    font-family: "Dancing Script", cursive;
+    padding-left: 45px;
+    padding-right: 20px;
     border: 2px solid black;
-    width: 100px;
+    width: 150px;
     font-size: 25px;
     display: flex;
-    margin-left: 160px;
+    margin-left: 138px;
     margin-bottom: 20px;
 }
 
 .bottom_vhod:hover{
     background-color: rgb(179, 179, 179);
+}
+
+.msg{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
 }

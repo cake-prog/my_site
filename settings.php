@@ -14,7 +14,7 @@
     <div class="main_content">
         <div class="left_sidebar">
             <p class="ikons_settings">Настройки</p>
-            <a href="entrance.html"><p class="ikons_beg">Выйти</p></a>
+            <a href="entrance.php"><p class="ikons_beg">Выйти</p></a>
         </div>
         <div class="settings">
             <ul>

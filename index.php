@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,10 +27,10 @@
 
         <div class="header_user">
             <a href="#">
-                <p>Екатерина Смирнова</p>
+                <p><?php $_SESSION['user']['nick'] ?></p>
             </a>
             <a href="#">
-                <img class="user_logo" src="img/фото1.jpg" alt="фото пользователя">
+                <img class="user_logo" src="img/user_picturs/not_foto.png" alt="фото пользователя">
             </a>
         </div>
     </div>
@@ -38,7 +43,7 @@
                 <li class="sidebar_num1">Друзья</li>
                 <li class="sidebar_num1">Группы</li>
                 <li id="fotografii" class="sidebar_num1">Фотографии</li>
-                <a href="settings.html">
+                <a href="settings.php">
                 <div class="sidebar_num_settings">
                     
                     <li>Настройки</li>
@@ -51,12 +56,12 @@
         </div>
         <div class="sidebar">
             <div class="sidebar_right1">
-                <img class="sidebar_right_img_user" src="img/фото1.jpg" alt="фото пользователя">
+                <img class="sidebar_right_img_user" src="img/user_picturs/not_foto.png" alt="фото пользователя">
                 <ul class="ul_sidebar_num2">
-                    <li class="sidebar_num2">Екатерина Смирнова</li>
+                    <li class="sidebar_num2">nickname: <?= $_SESSION['user']['nick']?></li>
                     <li class="sidebar_num2">Дата рождения: 25.12.2004</li>
                     <li class="sidebar_num2">Город: Санкт-Петербург</li>
-                    <li class="sidebar_num2">Родственники: Лада Дуброва</li>
+                    <li class="sidebar_num2">email: <?= $_SESSION['user']['email']?></li>
                     <li class="sidebar_num2">Статус: :)</li>
                     <li class="sidebar_num2">Темная: темная</li>
                 </ul>

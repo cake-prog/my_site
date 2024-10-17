@@ -68,7 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     border:2px solid black;
-    width: 500px;
+    width: 400px;
     margin-top: 250px;
     margin-left: 500px;
     margin-bottom: 360px;
@@ -80,89 +80,70 @@ body {
     margin-left: 33%;
     margin-top: 5px;
 }
-/*TEL_OR_EMAIL*/
 
-.tel_or_email{
-    display: flex;
+
+.label_nick{
     font-size: 25px;
+    margin-left: 10px;
+    margin-right: 110px;
+}
+.label_email{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 147px;
+}
+.label_password{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 110px;
+}
+.label_password_return{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 47px;
+}
+
+.nick>input, .email>input, .password>input, .password_return>input{
+    height: 25px;
+    border: 2px solid black;
+}
+.nick{
+
     margin-top: 20px;
-    margin-left: 20px;
 }
-
-.tel_or_email>.search,.tel_or_email>.submit{
-    border: 2px solid black;
+.email{
+    margin-top: 10px;
 }
-.tel_or_email>.search{
-    margin-left: 40px;
-}
-.tel_or_email>.submit{
-    margin-left: 10px;
-}
-/*/TEL_OR_EMAIL*/
-
-/*PASSWORD*/
 .password{
-    display: flex;
-    font-size: 25px;
     margin-top: 10px;
-    margin-left: 10px;
 }
-.password>p{
-    margin-right: 42px;
-    margin-left: 10px;
+.password_return{
+    margin-top: 10px;
 }
 
-.password>.search,.password>.submit{
-    border: 2px solid black;
-}
-.password>.search{
-    margin-left: 112px;
-}
-.password>.submit{
-    margin-left: 10px;
-}
 .continue{
-    display: flex;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-/*/PASSWORD*/
-
-/*RETURN_PASSWORD*/
-.return_password{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 25px;
-}
-
-.return_password>.search, .return_password>.submit{
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    background-color: white;
     border: 2px solid black;
-}
-.return_password>.submit{
-    margin-left: 10px;
-}
-.return_password>.search{
-    margin-left: 44px;
-}
-.return_password>p{
-    margin-left: 10px;
-}
-/*CONTINUE*/
-
-.authorization>div>a{
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    width: 220px;
-    margin-left: 140px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
-.authorization>div>a:hover{
+.continue:hover{
     background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+.msg{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
 }
